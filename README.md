@@ -49,8 +49,9 @@ The Password Generator project is a Python application aimed at generating secur
 - Implement password strength indicator.
 - Add option for saving generated passwords to a file.
 - Improve GUI design for better user experience.
+  
 
-# Task 1: Rock Paper Scissors Game
+# Task 2: Rock Paper Scissors Game
 
 ## Overview
 
