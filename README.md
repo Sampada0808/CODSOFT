@@ -57,6 +57,11 @@ The Password Generator project is a Python application aimed at generating secur
 
 This project implements a simple Rock Paper Scissors game using Python and Tkinter for the graphical user interface (GUI).
 
+### Requirements
+- Python
+- Tkinter (for GUI)
+
+
 ### Features
 
 - Graphical user interface built with Tkinter.
