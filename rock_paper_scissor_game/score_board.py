@@ -45,5 +45,3 @@ class ScoreBoard:
         self.computer_score_value = 0
         self.computer_score.config(text=self.computer_score_value)
         self.user_score.config(text=self.user_score_value)
-
-

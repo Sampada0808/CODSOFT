@@ -15,15 +15,14 @@ class GameGUI:
 
         self.score = ScoreBoard()
 
-        # Rock Button
         self.rock_img = PhotoImage(file="Images/ButtonImages/rock.png")
         self.rock_button = Button(image=self.rock_img, command=self.rock_clicked)
         self.rock_button.place(x=60, y=460)
-        # Paper Button
+
         self.paper_img = PhotoImage(file="Images/ButtonImages/paper.png")
         self.paper_button = Button(image=self.paper_img, command=self.paper_clicked)
         self.paper_button.place(x=240, y=460)
-        # Scissor Button
+
         self.scissor_img = PhotoImage(file="Images/ButtonImages/scissor.png")
         self.scissor_button = Button(image=self.scissor_img, command=self.scissor_clicked)
         self.scissor_button.place(x=420, y=460)
@@ -64,3 +63,7 @@ class GameGUI:
             self.score.reset_score()
         else:
             self.window.destroy()
+
+
+if __name__ == "__main__":
+    GameGUI()

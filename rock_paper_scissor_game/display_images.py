@@ -28,17 +28,13 @@ class DisplayImage:
             self.user = self.rock_image
 
     def results(self):
-        if ((self.computer_choice==self.scissor_image and self.user == self.paper_image or
-                self.computer_choice == self.paper_image and self.user == self.rock_image)
+        if ((self.computer_choice == self.scissor_image and self.user == self.paper_image or
+             self.computer_choice == self.paper_image and self.user == self.rock_image)
                 or self.computer_choice == self.rock_image and self.user == self.scissor_image):
             return "computer"
-        elif ((self.user==self.scissor_image and self.computer_choice == self.paper_image or
-                self.user == self.paper_image and self.computer_choice == self.rock_image)
-                or self.user == self.rock_image and self.computer_choice == self.scissor_image):
+        elif ((self.user == self.scissor_image and self.computer_choice == self.paper_image or
+               self.user == self.paper_image and self.computer_choice == self.rock_image)
+              or self.user == self.rock_image and self.computer_choice == self.scissor_image):
             return "user"
         else:
             return "draw"
-
-
-
-
