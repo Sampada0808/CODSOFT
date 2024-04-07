@@ -60,7 +60,8 @@ class GameGUI:
         answer = messagebox.askyesno("Play Again?", "Do you want to play another round?")
         if answer:
             self.rounds_played = 0
-            self.score.reset_score()
+            self.window.destroy()
+            GameGUI()
         else:
             self.window.destroy()
 
