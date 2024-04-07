@@ -70,7 +70,6 @@ This project implements a simple Rock Paper Scissors game using Python and Tkint
 
 ## Project Structure
 
-- **`main.py`**: Entry point of the application, contains the `GameGUI` class to handle game logic and GUI interactions.
 - **`score_board.py`**: Defines the `ScoreBoard` class to manage and display the game scores.
 - **`display_images.py`**: Implements the `DisplayImage` class to display the user and computer choices in the GUI.
 - **`Images/`**: Directory containing image assets used in the game.
