@@ -45,9 +45,12 @@ class GameGUI:
             result = self.display.results()
             self.score.update_score(result)
             if self.rounds_played == 5:
-                self.display_winner()
-                messagebox.showinfo("Game Over", "You've completed 5 rounds!")
-                self.ask_play_again()
+                self.window.after(500, self.display_winner_and_ask_play_again)
+
+    def display_winner_and_ask_play_again(self):
+        self.display_winner()
+        messagebox.showinfo("Game Over", "You've completed 5 rounds!")
+        self.ask_play_again()
 
     def display_winner(self):
         winner = self.score.get_winner()
