@@ -41,8 +41,6 @@ The Password Generator project is a Python application aimed at generating secur
 - **`password_GUI.py`**: 
   - Defines the `PasswordGUI` class, which implements the graphical user interface using Tkinter.
 
-- **`README.md`**: 
-  - Documentation file providing an overview of the project, its features, and usage instructions.
 
 ## Future Enhancements
 
