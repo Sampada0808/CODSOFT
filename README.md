@@ -83,3 +83,63 @@ This project implements a simple Rock Paper Scissors game using Python and Tkint
 - Enhance GUI design for better user experience.
 - Allow customization of the number of rounds.
 
+# Task 3: Contact Book
+
+## Project Overview
+
+**Problem Statement**: 
+Design a contact book application using Python and Tkinter to manage contact details efficiently.
+
+### Requirements
+- Python
+- Tkinter (for GUI)
+
+## Project Description
+
+The Contact Book project is a Python application aimed at providing users with a platform to manage their contact details effectively. It utilizes Tkinter, a GUI library in Python, to offer a user-friendly interface for adding, editing, searching, and deleting contacts.
+
+## Features
+
+1. **Graphical User Interface (GUI)**:
+   - The project includes a graphical user interface built using Tkinter, providing users with an intuitive platform to manage their contacts.
+
+2. **Add Contacts**:
+   - Users can add new contacts by entering details such as name, phone number, email, and address.
+
+3. **Edit Contacts**:
+   - Existing contacts can be edited to update their details, such as name, phone number, email, and address.
+
+4. **Search Contacts**:
+   - Users can search for contacts by name or phone number, making it easier to find specific contacts in the list.
+
+5. **Delete Contacts**:
+   - Contacts can be deleted from the list, allowing users to remove unwanted or outdated contacts.
+
+6. **Listbox Display**:
+   - The project includes a listbox to display the saved contacts, providing users with a clear overview of their contact list.
+
+7. **Data Persistence**:
+   - Contact details are saved to a text file (`contacts_list.txt`), ensuring that users' contact information is retained even after closing the application.
+
+## Project Structure
+
+- **`contact_GUI.py`**: 
+  - Contains the `ContactGUI` class, which implements the graphical user interface using Tkinter.
+
+- **`contact_modify.py`**: 
+  - Defines the `ContactModify` class, responsible for adding, editing, searching, and deleting contacts.
+
+- **`contact_list.py`**: 
+  - Implements the `ContactList` class, which manages the listbox display of contacts and maintains the contact records.
+
+- **`contacts_list.txt`**: 
+  - Text file to store contact details.
+
+## Future Enhancements
+
+- Implement sorting functionality for the contact list.
+- Add validation for email addresses to ensure they are in the correct format.
+- Improve error handling to provide more informative error messages to users.
+- Enhance the GUI design for better aesthetics and user experience.
+
+
