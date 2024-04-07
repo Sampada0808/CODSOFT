@@ -27,10 +27,11 @@ class ScoreBoard:
     def update_score(self, result):
         if result == "computer":
             self.computer_score_value += 1
-            self.computer_score.config(text=self.computer_score_value)
         elif result == "user":
             self.user_score_value += 1
-            self.user_score.config(text=self.user_score_value)
+
+        self.computer_score.config(text=self.computer_score_value)
+        self.user_score.config(text=self.user_score_value)
 
     def get_winner(self):
         if self.user_score_value < self.computer_score_value:
