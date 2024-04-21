@@ -48,39 +48,7 @@ The Password Generator project is a Python application aimed at generating secur
 - Add option for saving generated passwords to a file.
 - Improve GUI design for better user experience.
   
-
-# Task 2: Rock Paper Scissors Game
-
-## Overview
-
-This project implements a simple Rock Paper Scissors game using Python and Tkinter for the graphical user interface (GUI).
-
-### Requirements
-- Python
-- Tkinter (for GUI)
-
-
-### Features
-
-- Graphical user interface built with Tkinter.
-- Players can choose between Rock, Paper, or Scissors.
-- The computer opponent selects its move randomly.
-- Scoreboard to keep track of the user and computer scores.
-- Game ends after a fixed number of rounds (default: 5).
-
-## Project Structure
-
-- **`score_board.py`**: Defines the `ScoreBoard` class to manage and display the game scores.
-- **`display_images.py`**: Implements the `DisplayImage` class to display the user and computer choices in the GUI.
-- **`Images/`**: Directory containing image assets used in the game.
-
-## Future Improvements
-
-- Implement more sophisticated AI for the computer opponent.
-- Enhance GUI design for better user experience.
-- Allow customization of the number of rounds.
-
-# Task 3: Contact Book
+# Task 2: Contact Book
 
 ## Project Overview
 
@@ -139,4 +107,33 @@ The Contact Book project is a Python application aimed at providing users with a
 - Improve error handling to provide more informative error messages to users.
 - Enhance the GUI design for better aesthetics and user experience.
 
+# Task 3: Rock Paper Scissors Game
 
+## Overview
+
+This project implements a simple Rock Paper Scissors game using Python and Tkinter for the graphical user interface (GUI).
+
+### Requirements
+- Python
+- Tkinter (for GUI)
+
+
+### Features
+
+- Graphical user interface built with Tkinter.
+- Players can choose between Rock, Paper, or Scissors.
+- The computer opponent selects its move randomly.
+- Scoreboard to keep track of the user and computer scores.
+- Game ends after a fixed number of rounds (default: 5).
+
+## Project Structure
+
+- **`score_board.py`**: Defines the `ScoreBoard` class to manage and display the game scores.
+- **`display_images.py`**: Implements the `DisplayImage` class to display the user and computer choices in the GUI.
+- **`Images/`**: Directory containing image assets used in the game.
+
+## Future Improvements
+
+- Implement more sophisticated AI for the computer opponent.
+- Enhance GUI design for better user experience.
+- Allow customization of the number of rounds.
